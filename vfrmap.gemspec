@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "guard-rspec", "~> 4.3"
   spec.add_development_dependency "pry", "~> 0.11"
 
-  spec.add_dependency "padrino-helpers", "~> 0.14"
+  spec.add_dependency "padrino-helpers", "~> 0.13"
   spec.add_dependency "geo_coord", "~> 0.1"
   spec.add_dependency "airports", "~> 1.0"
   spec.add_dependency "addressable", "~> 2.5"
