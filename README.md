@@ -16,5 +16,10 @@ require 'vfrmap'
 ```
 
 ```ruby
-Vfrmap.new(lat,lon,type,zoom)
+Vfrmap.new([location],[options])
 ```
+
+- `location` Coordinates that can be parsed by
+  [Geo::Coord](https://github.com/zverok/geo_coord) or a 3-letter IATA airport
+  code.
+- `options` See [DEFAULTS](#) constant.
