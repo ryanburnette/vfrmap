@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = Vfrmap::VERSION
   spec.authors       = ["Ryan Burnette"]
   spec.email         = ["ryan.burnette@gmail.com"]
-  spec.summary       = "An implementation of the [VFRMAP API](http://vfrmap.com/map_api.html) in Ruby."
+  spec.summary       = "An implementation of the VFRMAP API in Ruby."
   spec.homepage      = "https://github.com/ryanburnette/vfrmap"
   spec.license       = "MIT"
 
