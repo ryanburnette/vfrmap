@@ -13,9 +13,6 @@ gem 'vfrmap'
 
 ```ruby
 require 'vfrmap'
-```
-
-```ruby
 Vfrmap.new([location],[options])
 ```
 
