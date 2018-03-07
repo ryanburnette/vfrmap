@@ -18,10 +18,11 @@ class Vfrmap
     alt: nil
   }
 
-  attr_reader :options
+  attr_accessor :options
 
   def initialize(location_string,options={})
     @location = Location.factory(location_string)
+    raise 'Invalid location' unless @location
     @options = DEFAULT_OPTIONS.merge(options)
   end
 
