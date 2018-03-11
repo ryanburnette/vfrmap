@@ -16,7 +16,7 @@ require 'vfrmap'
 Vfrmap.new([location],[options])
 ```
 
-- `location` Coordinates that can be parsed by
-  [Geo::Coord](https://github.com/zverok/geo_coord) or a 3-letter IATA airport
-  code.
+- `location` Pass in coordinates that can be parsed by
+  [Geo::Coord](https://github.com/zverok/geo_coord), a 3-letter IATA airport
+  code, or a 4-letter ICAO airport code.
 - `options` See [DEFAULTS](#) constant.

@@ -17,6 +17,11 @@ class Vfrmap::Location
   end
 
   def self.try_airport(location_string)
-    Airports.find_by_iata_code(location_string.upcase)
+    case
+    when location_string.length == 3
+      Airports.find_by_iata_code(location_string.upcase)
+    when location_string.length == 4
+      Airports.find_by_icao_code(location_string.upcase)
+    end
   end
 end
