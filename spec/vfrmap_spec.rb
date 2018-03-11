@@ -26,8 +26,13 @@ RSpec.describe Vfrmap do
         it { is_expected.to be_a(Geo::Coord) }
       end
 
-      context 'airport' do
+      context 'iata airport' do
         subject { described_class.new('crg').send(:location) }
+        it { is_expected.to be_a(Airports::Airport) }
+      end
+
+      context 'icao airport' do
+        subject { described_class.new('kcrg').send(:location) }
         it { is_expected.to be_a(Airports::Airport) }
       end
     end

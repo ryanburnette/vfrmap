@@ -28,6 +28,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "padrino-helpers", "~> 0.13"
   spec.add_dependency "geo_coord", "~> 0.1"
-  spec.add_dependency "airports", "~> 1.0"
+  spec.add_dependency "airports", "~> 1.2"
   spec.add_dependency "addressable", "~> 2.5"
 end
